@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>e-Tech</h1>
+            </div>
+            <ul class="navlist">
+                <li class="navitem"><a href="/index.html">Home</a></li>
+                <li class="navitem"><a href="./index.html">About us</a></li>
+                <li class="navitem"><a href="./shop.html">Shop</a></li>
+                <li class="navitem"><a href="./index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="./cart.html" class="cart" style="text-decoration: none; color: black;">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+    <div class="toggle-nav">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <section class="slider">
+        <div class="btns">
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="img">
+            <img src="./store/headphone3.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/headphone4.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/headphone5.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/laptop4.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/phone4.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/slider1.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/slider2.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/slider3.jpg" alt="img1">
+        </div>
+        <div class="img">
+            <img src="./store/slider4.jpg" alt="img1">
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div>
+            <h1>About Us</h1>
+            <p>Welcome to e-Tech, your ultimate destination for cutting-edge technology and premium electronics. At e-Tech, we're passionate about delivering the latest gadgets and devices to enhance your lifestyle, whether you're a music aficionado, a tech enthusiast, or a savvy shopper looking for the best deals.</p>
+        </div>
+        <div>
+            <h1>Our Mission</h1>
+            <p>Our mission is simple: to provide you with an unparalleled shopping experience that exceeds your expectations. We're committed to offering a curated selection of top-quality products from trusted brands, ensuring that every purchase you make brings you joy and satisfaction.</p>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h1>Customer Reviews</h1>
+        <article class="prev">
+            <h2>Sarah M.</h2>
+            <p class="title">~ Music Enthusiast</p>
+            <p class="desc">Fantastic headphones from e-Tech! Great sound quality and top-notch service. Will definitely shop here again! The quick delivery exceeded my expectations. Plus, their easy return policy gives me peace of mind.</p>
+        </article>
+        <article class="current">
+            <h2>Alex T.</h2>
+            <p class="title">~ Tech Geek</p>
+            <p class="desc">Impressed with e-Tech's range. Best tech at great prices with excellent service. My go-to for all things tech! Plus, their loyalty program offers great rewards. The customer reviews helped me make informed decisions</p>
+        </article>
+        <article class="next">
+            <h2>Emily R.</h2>
+            <p class="title">~ Busy Professional</p>
+            <p class="desc">e-Tech makes shopping for earbuds a breeze. Quality products and seamless experience save me precious time. Their user-friendly website is a lifesaver! The email updates on new arrivals keep me in the loop.</p>
+        </article>
+        <article class="prev2">
+            <h2>Michael H.</h2>
+            <p class="title">~ Gaming Enthusiast</p>
+            <p class="desc">Found my ultimate gaming gear at e-Tech. Incredible selection and helpful support team. Gaming just got better! Plus, their warranty coverage gives me peace of mind. The express shipping option is a game-changer.</p>
+        </article>
+        <article class="next2">
+            <h2>Sophie L.</h2>
+            <p class="title">~ Trendsetter</p>
+            <p class="desc">Always ahead of the curve with e-Tech. They offer the latest tech trends with style and reliability. Love shopping here! Their personalized recommendations make finding the perfect gadget a breeze. The hassle-free checkout process is a time-saver.</p>
+        </article>
+
+        <div class="testimonial-btns">
+            <button id="prev-testimonial" onclick="prevTestimonial()"><i class="fa-solid fa-circle-left"></i></button>
+            <button id="next-testimonial" onclick="nextTestimonial()"><i class="fa-solid fa-circle-right"></i></button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div>
+            <form>
+                <h1>Contact us</h1>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder="email"> <br>
+                <label for="feedback">Share your thoughts</label> <br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea> <br>
+                <input type="submit" id="submit" value="submit">
+            </form>
+                <img src="./store/contact-removebg-preview.png" alt="contact-image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; All copyrights reserved</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

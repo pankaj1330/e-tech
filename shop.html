@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>e-Tech</h1>
+            </div>
+            <ul class="navlist">
+                <li class="navitem"><a href="/index.html">Home</a></li>
+                <li class="navitem"><a href="./index.html">About us</a></li>
+                <li class="navitem"><a href="./shop.html">Shop</a></li>
+                <li class="navitem"><a href="./index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="./cart.html" class="cart" style="text-decoration: none; color: black;">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+    <div class="toggle-nav">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <section class="products">
+        <div class="items-list">
+            <button id="all" class="active" data-val="all">All</button>
+            <button id="headphone" data-val="headphone">Headphones</button>
+            <button id="phone" data-val="phone">Phones</button>
+            <button id="earbud" data-val="earbud">Earbuds</button>
+            <button id="laptop" data-val="laptop">Laptops</button>
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="search">
+            </div>
+        </div>
+        <div class="items">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; All copyrights reserved</p>
+    </footer>
+
+    <script src="./shop.js"></script>
+</body>
+</html>
