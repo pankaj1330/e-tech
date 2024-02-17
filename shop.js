@@ -285,7 +285,7 @@ search.addEventListener('input',()=>{
     }
     else{
         searchItems = filterItems.filter(item => {
-            return item.name.toLowerCase().startsWith(searchval);
+            return item.name.toLowerCase().includes(searchval);
         })
     }
     itemsHtml(searchItems);
